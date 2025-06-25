@@ -1,3 +1,9 @@
+# Table of Contents
+- [The Story of Hotswap](#the-story-of-hotswap)
+- [Getting Started](#getting-started)
+- [Applications of Per-Set Replays](#applications-of-per-set-replays)
+- [Other Related Tools](#other-related-tools)
+
 # The Story of Hotswap
 In the beginning there was the Slippi replay.
 This perfect digital representation of a game of Melee became the basis of modern netplay and production, but consoles did not see the same benefits at first.
@@ -14,17 +20,17 @@ The result is replays grouped and labelled by set, packaged together with all re
 
 <img width="778" alt="Screenshot 2025-06-25 at 12 17 38" src="https://github.com/user-attachments/assets/35e11d74-2eb9-4573-98c2-a4677c5a9d23" />
 
-## Hotswap Core
+# Getting Started
 To start producing *Per-Set Replays* you will need the following:
 - Slippi Nintendont
 - Replay Manager for Slippi
 - USB Drives
 
-## What To Do With Per-Set Replays
+# Applications of Per-Set Replays
 - Auto VODs
 - Auto Stream
 - Melee Improover
 - Rwing
 
-## Other Related Tools
+# Other Related Tools
 - start.gg VOD Assigner
