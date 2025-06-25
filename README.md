@@ -20,6 +20,12 @@ The result is replays grouped and labelled by set, packaged together with all re
 
 <img width="778" alt="Screenshot 2025-06-25 at 12 17 38" src="https://github.com/user-attachments/assets/35e11d74-2eb9-4573-98c2-a4677c5a9d23" />
 
+This isn't just great for players, it's great for TOs too.
+Aside from the hotswap workflow inherently putting character, game, and stage data in start.gg, *Per-Set Replays* can also be used for Auto VODs and Auto Streams.
+This is the bracket your bracket could look like:
+
+<img width="613" alt="Screenshot 2025-06-25 at 12 41 25" src="https://github.com/user-attachments/assets/163d07b6-40ad-4cec-8348-a5fde29a8656" />
+
 # Getting Started
 To start producing *Per-Set Replays* you will need the following:
 - Slippi Nintendont
