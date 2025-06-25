@@ -20,7 +20,7 @@ The result is replays grouped and labelled by set, packaged together with all re
 
 <img width="778" alt="Screenshot 2025-06-25 at 12 17 38" src="https://github.com/user-attachments/assets/35e11d74-2eb9-4573-98c2-a4677c5a9d23" />
 
-This isn't just great for players, it's great for TOs too.
+While the emergence of replay-based practice tools makes this great for players, it's also great for TOs.
 Aside from the hotswap workflow inherently putting character, game, and stage data in start.gg, *Per-Set Replays* can also be used for Auto VODs and Auto Streams.
 This is the bracket your bracket could look like:
 
@@ -28,8 +28,13 @@ This is the bracket your bracket could look like:
 
 # Getting Started
 To start producing *Per-Set Replays* you will need the following:
-- Slippi Nintendont
-- Replay Manager for Slippi
+- [Slippi Nintendont](https://github.com/project-slippi/Nintendont/releases/latest) -
+At time of writing, the latest version to contain hotswap improvments is `v1.13.0` from April 2025.
+If your Wiis are only used for tournament Melee, I recommend setting them up to fully autoboot to CSS.
+- [Replay Manager for Slippi](https://github.com/jmlee337/replay-manager-for-slippi/releases/latest) -
+Used to simultaneously group, label, and package *Per-Set Replays* while reporting set results to start.gg (or Challonge).
+Can be operated by a TO and/or set to walkthrough mode for player self-service.
+Available for Windows, Mac, and Linux.
 - USB Drives
 
 # Applications of Per-Set Replays
