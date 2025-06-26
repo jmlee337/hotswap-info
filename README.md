@@ -13,7 +13,7 @@ And all that only to review a set on PC or maybe record a clip to post to Twitte
 
 However, there is now a better way.
 
-The shortcoming of the Slippi replay is that they work **per-game**, while much of console Melee is played **per-set**.
+The shortcoming of Slippi replays is that they work **per-game**, while much of console Melee is played **per-set**.
 Now, USB hotswap in Slippi Nintendont makes it practical to collect replays per-set.
 With Replay Manager for Slippi we can add player names, scores, and information about the set all while reporting the result to start.gg in the same amount of time.
 The result is replays grouped and labelled by set, packaged together with all relevant context, henceforth referred to as *Per-Set Replays*.
