@@ -63,6 +63,3 @@ Of course, the PC must be able to run 4 Slippi Dolphins at the same time.
 Best used for **smaller** tournaments that happen more frequently, like weeklies.
 Auto SLP Player produces timestamps for every set so the VOD can be easily browsed by players and viewers.
 By streaming to Twitch and YouTube using [Restream](https://restream.io), the TO can produce a YouTube Live VOD complete with timestamps shortly before bracket ends.
-
-# Other Related Tools
-- start.gg VOD Assigner
