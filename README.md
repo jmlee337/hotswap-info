@@ -42,10 +42,11 @@ A new drive seems to cost at least $3 each from the likes of Microcenter.
 
 In tournament the hotswap workflow looks like this:
 
-1. The players take and insert a USB drive before starting their set
-2. The players play their set as normal
-3. The players return the USB drive to the TO when reporting their result.
-4. The TO uses Replay Manager for Slippi to turn the replays from the returned USB drive into *Per-Set Replays* and report the result to start.gg.
+1. The players take and insert a USB drive in the Wii before starting their set.
+2. The players confirm that the disc drive lights up and remains solid blue: this means that replays are working.
+3. The players play their set as normal.
+4. The players return the USB drive to the TO when reporting their result.
+5. The TO uses Replay Manager for Slippi to turn the replays from the returned USB drive into *Per-Set Replays* and report the result to start.gg.
 
 # Applications of *Per-Set Replays*
 *Per-Set Replays* are more convienent for TOs to upload since when the bracket ends they're already all in one place.
