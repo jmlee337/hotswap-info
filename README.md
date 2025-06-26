@@ -50,7 +50,7 @@ In tournament the hotswap workflow looks like this:
 # Applications of *Per-Set Replays*
 *Per-Set Replays* are more convienent for TOs to upload since when the bracket ends they're already all in one place.
 They are also more convenient for players to download, making it easier to use tools like [Melee Improover](https://github.com/Fiction52s/Melee-Improover/releases/latest) and [rwing](https://www.patreon.com/rwing_aitch).
-*Per-Set Replays* are also compressed by default which makes them easier on TO's cloud storage limits.
+*Per-Set Replays* are compressed by default which makes them easier on TO's cloud storage limits.
 Perhaps most importantly, there are also tools which specifically use *Per-Set Replays*, enabling TOs to do new things with very little effort:
 - [Auto VODs](https://github.com/davisdude/slp2mp4) -
 slp2mp4 by GrayCode turns *Per-Set Replays* into videos ready to be uploaded to YouTube.
