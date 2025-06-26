@@ -48,11 +48,21 @@ In tournament the hotswap workflow looks like this:
 3. The players return the USB drive to the TO when reporting their result.
 4. The TO uses Replay Manager for Slippi to turn the replays from the returned USB drive into *Per-Set Replays* and report the result to start.gg.
 
-# Applications of Per-Set Replays
-- Auto VODs
-- Auto Stream
-- Melee Improover
-- Rwing
+# Applications of *Per-Set Replays*
+*Per-Set Replays* are more convienent for TOs to upload since when the bracket ends they're already all in one place.
+They are also more convenient for players to download, making it easier to use tools like [Melee Improover](https://github.com/Fiction52s/Melee-Improover/releases/latest) and [rwing](https://www.patreon.com/rwing_aitch).
+*Per-Set Replays* are also compressed by default which makes them easier on TO's cloud storage limits.
+Perhaps most importantly, there are also tools which specifically use *Per-Set Replays*, enabling TOs to do new things with very little effort:
+- [Auto VODs](https://github.com/davisdude/slp2mp4) -
+slp2mp4 by GrayCode turns *Per-Set Replays* into videos ready to be uploaded to YouTube.
+It is fully walk-away automatic, no OBS required or anything like that.
+Best used for **larger** tournaments that happen less frequently, like monthlies, regionals, etc.
+- [Auto Stream](https://github.com/jmlee337/auto-slp-player/releases/latest) -
+Auto SLP Player enables the TO operating Replay Manager to run an auto-quad stream from the same PC.
+Of course, the PC must be able to run 4 Slippi Dolphins at the same time.
+Best used for **smaller** tournaments that happen more frequently, like weeklies.
+Auto SLP Player produces timestamps for every set so the VOD can be easily browsed by players and viewers.
+By streaming to Twitch and YouTube using [Restream](https://restream.io), the TO can produce a YouTube Live VOD complete with timestamps shortly before bracket ends.
 
 # Other Related Tools
 - start.gg VOD Assigner
