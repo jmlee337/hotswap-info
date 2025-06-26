@@ -2,7 +2,6 @@
 - [The Story of Hotswap](#the-story-of-hotswap)
 - [Getting Started](#getting-started)
 - [Applications of Per-Set Replays](#applications-of-per-set-replays)
-- [Other Related Tools](#other-related-tools)
 
 # The Story of Hotswap
 In the beginning there was the Slippi replay.
