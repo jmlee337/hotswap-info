@@ -2,6 +2,7 @@
 - [The Story of Hotswap](#the-story-of-hotswap)
 - [Getting Started](#getting-started)
 - [Applications of Per-Set Replays](#applications-of-per-set-replays)
+- [Frequently Asked Questions (FAQs)](#frequently-asked-questions-faqs)
 
 # The Story of Hotswap
 In the beginning there was the Slippi replay.
@@ -63,3 +64,12 @@ Of course, the PC must be able to run 4 Slippi Dolphins at the same time.
 Best used for **smaller** tournaments that happen more frequently, like weeklies.
 Auto SLP Player produces timestamps for every set so the VOD can be easily browsed by players and viewers.
 By streaming to Twitch and YouTube using [Restream](https://restream.io), the TO can produce a YouTube Live VOD complete with timestamps shortly before bracket ends.
+
+# Frequently Asked Questions (FAQs)
+## Can I record to 2 USB drives at once?
+No.
+## Will using the hotswap workflow slow down my bracket?
+Within reason, no.
+Experimentally, for a pool up to 64 players one TO operating Replay Manager can be fast enough to avoid any line forming.
+If you have more than 64 players per wave, you should expect to need extra laptops and TOs.
+Some TOs attest that reporting through Replay Manager is **faster** than start.gg's website.
