@@ -19,6 +19,7 @@ If the Wii boots to this menu:
 that means you have BootMii-boot2 installed.
 BootMii-boot2 cannot be used in full autoboot and will interfere with *Priiloader Autoboot* unless specially configured.
 The simplest thing to do is uninstall it by running HackMii Installer via Homebrew Channel.
+> [!NOTE]
 > It's also possible for BootMii-boot2 to be configured to boot to Homebrew Channel **without** showing the menu pictured above.
 If the Wii still boots to Homebrew Channel **after** changing Priiloader's `Autoboot` setting in the setup steps below, uninstall BootMii-boot2 by running HackMii Installer via Homebrew Channel.
 ## Setup
@@ -42,7 +43,8 @@ Change `Autoboot` to `Installed File`, then select `save settings`:
 
 
 Hold the Wii POWER button until the console turns off, then turn it back on and verify that it boots to Slippi Nintendont.
-> If the Wii boots to Homebrew Channel instead, even after double checking the previous steps, you have BootMii-boot2 installed.
+> [!NOTE]
+> In the rare case that the Wii boots to Homebrew Channel instead, even after double checking the previous steps, you have BootMii-boot2 installed.
 Follow the above [Prerequisite: No BootMii-boot2](#prerequisite-no-bootmii-boot2) steps.
 
 In Slippi Nintendont once all your `Slippi Settings` are set, press L or R to access the second page, `Nintendont Settings`.
