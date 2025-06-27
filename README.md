@@ -30,15 +30,17 @@ This is the bracket your bracket could look like:
 To start producing *Per-Set Replays* you will need the following:
 
 - [Slippi Nintendont](https://github.com/project-slippi/Nintendont/releases/latest) -
-At time of writing, the latest version to contain hotswap improvments is `v1.13.0` from April 2025.
-If your Wiis are only used for tournament Melee, I recommend setting them up to fully autoboot to CSS.
+At time of writing, the latest version to contain hotswap improvments is `v1.13.0` (April 2025).
+If your Wiis are only used for tournament Melee, I recommend setting up [full autoboot](autoboot.md).
 - [Replay Manager for Slippi](https://github.com/jmlee337/replay-manager-for-slippi/releases/latest) -
 Used to simultaneously group, label, and package *Per-Set Replays* while reporting set results to start.gg (or Challonge).
 Can be operated by a TO and/or set to walkthrough mode for player self-service.
 Available for Windows, Mac, and Linux.
 - USB Drives - USB 2.0 or later required.
+I recommend formatting your USB drives as exFAT (as opposed to FAT32).
 A tournament replay takes up about 1 MB per minute, so even a 1 GB drive is bigger than you could ever possibly need.
 I've found it's possible to get small USB 2.0 drives used or surplus for as low as $1 each.
+Of course there is some risk of ending up with low-quality drives this way.
 A new drive seems to cost at least $3 each from the likes of Microcenter.
 
 In tournament the hotswap workflow looks like this:
