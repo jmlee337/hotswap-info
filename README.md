@@ -24,7 +24,7 @@ While the emergence of replay-based practice tools makes this great for players,
 Aside from the hotswap workflow inherently putting character, game, and stage data in start.gg, *Per-Set Replays* can also be used for Auto VODs and Auto Streams.
 This is the bracket your bracket could look like:
 
-<img width="613" alt="Screenshot 2025-06-25 at 12 41 25" src="https://github.com/user-attachments/assets/163d07b6-40ad-4cec-8348-a5fde29a8656" />
+[<img width="613" alt="Front Runners #30" src="https://github.com/user-attachments/assets/163d07b6-40ad-4cec-8348-a5fde29a8656" />](https://www.start.gg/tournament/front-runners-30/event/melee-singles/brackets/1984102/2910341)
 
 # Getting Started
 To start producing *Per-Set Replays* you will need the following:
