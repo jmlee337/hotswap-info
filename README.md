@@ -45,7 +45,7 @@ A new drive seems to cost at least $3 each from the likes of Microcenter.
 
 In tournament the hotswap workflow looks like this:
 
-1. The players take and insert a USB drive in the Wii before starting their set.
+1. The players take and insert a USB drive in the Wii (either port) before starting their set.
 2. The players confirm that the disc drive lights up and remains solid blue: this means that replays are working.
 3. The players play their set as normal.
 4. The players return the USB drive to the TO when reporting their result.
@@ -65,7 +65,7 @@ Auto SLP Player enables the TO operating Replay Manager to run an auto-quad stre
 Of course, the PC must be able to run 4 Slippi Dolphins at the same time.
 Best used for **smaller** tournaments that happen more frequently, like weeklies.
 Auto SLP Player produces timestamps for every set so the VOD can be easily browsed by players and viewers.
-By streaming to Twitch and YouTube using [Restream](https://restream.io), the TO can produce a YouTube Live VOD complete with timestamps shortly before bracket ends.
+By streaming to Twitch and YouTube using [Restream](https://restream.io), the TO can produce a YouTube Live VOD complete with timestamps shortly **before** bracket ends.
 
 # Frequently Asked Questions (FAQs)
 ## Can I record to 2 USB drives at once?
