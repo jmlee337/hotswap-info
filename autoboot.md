@@ -1,7 +1,7 @@
 # Full Autoboot
 Full autoboot means pressing the Wii POWER button and walking away while it boots all the way into Melee.
 Of course this is very useful to TOs.
-To get set up full autoboot you will need:
+To set up full autoboot you will need:
 - [Slippi Nintendont](https://github.com/project-slippi/Nintendont/releases/latest), v1.13.0 (April 2025) or later.
 This version included a fix for a bug that could cause launching Melee to get stuck on a black screen before reaching the game.
 - Forwarder for Slippi Nintendont, which is included in the Slippi Nintendont download.
