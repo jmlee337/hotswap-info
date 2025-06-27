@@ -11,6 +11,17 @@ If your installed Priiloader version is too old this won't work, so if you have 
 I once had problems with an installed Priiloader that was version `0.7` (April 2011) or earlier (it had a white background).
 I suspect version `0.8` (July 2015) should work, please let me know if that is the case for you.
 
+## Prerequisite: No BootMii-boot2
+You may also need:
+- [HackMii Installer](https://bootmii.org/download/) to uninstall BootMii-boot2.
+If the Wii boots to this menu:
+![image](https://github.com/user-attachments/assets/1e987a3e-9609-424f-a328-df5d40a007bc)
+that means you have BootMii-boot2 installed.
+BootMii-boot2 cannot be used in full autoboot and will interfere with *Priiloader Autoboot* unless specially configured.
+The simplest thing to do is uninstall it by running HackMii Installer via Homebrew Channel.
+> It's also possible for BootMii-boot2 to be configured to boot to Homebrew Channel **without** showing the menu pictured above.
+If the Wii still boots to Homebrew Channel **after** changing Priiloader's `Autoboot` setting in the setup steps below, uninstall BootMii-boot2 by running HackMii Installer via Homebrew Channel.
+## Setup
 After running the Priiloader installer via Homebrew Channel, access Priiloader settings by holding the Wii RESET button while powering on.
 
 Select `Load/Install File`:
@@ -30,7 +41,9 @@ Change `Autoboot` to `Installed File`, then select `save settings`:
 ![vlcsnap-2025-06-26-18h19m03s840](https://github.com/user-attachments/assets/f00e9dc5-13eb-45d1-b519-5cb70e0c6204)
 
 
-Hold the Wii POWER button until the console turns off, then turn it back on and verify that *Priiloader Autoboot* takes you to Slippi Nintendont.
+Hold the Wii POWER button until the console turns off, then turn it back on and verify that it boots to Slippi Nintendont.
+> If the Wii boots to Homebrew Channel instead, even after double checking the previous steps, you have BootMii-boot2 installed.
+Follow the above [Prerequisite: No BootMii-boot2](#prerequisite-no-bootmii-boot2) steps.
 
 In Slippi Nintendont once all your `Slippi Settings` are set, press L or R to access the second page, `Nintendont Settings`.
 Change `Auto Boot` to `On`:
