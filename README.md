@@ -37,7 +37,7 @@ Used to simultaneously group, label, and package *Per-Set Replays* while reporti
 Can be operated by a TO and/or set to walkthrough mode for player self-service.
 Available for Windows, Mac, and Linux.
 - USB Drives - USB 2.0 or later required.
-I recommend formatting your USB drives as exFAT (as opposed to FAT32).
+I recommend formatting your USB drives as exFAT (as opposed to FAT32 - if booting P+ as well see [this guide](projectplusgame.md)).
 A tournament replay takes up about 1 MB per minute, so even a 1 GB drive is bigger than you could ever possibly need.
 I've found it's possible to get small USB 2.0 drives used or surplus for as low as $1 each.
 Of course there is some risk of ending up with low-quality drives this way.
@@ -72,6 +72,6 @@ By streaming to Twitch and YouTube using [Restream](https://restream.io), the TO
 No.
 ## Will using the hotswap workflow slow down my bracket?
 Within reason, no.
-Experimentally, for a pool up to 64 players one TO operating Replay Manager can be fast enough to avoid any line forming.
+In practice, for a pool up to 64 players one TO operating Replay Manager can be fast enough to avoid any line forming.
 If you have more than 64 players per wave, you should expect to need extra laptops and TOs.
 Some TOs attest that reporting through Replay Manager is **faster** than start.gg's website.
