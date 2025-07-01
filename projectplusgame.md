@@ -19,9 +19,8 @@
 
 ## Copy Brawl ISO
 - Windows 11: [Wii Backup Manager](https://wiibackupmanager.co.uk/)
-- macOS: [Wiimms WBFS Tool](https://wit.wiimm.de/download.html) -
-Unfortunately, the current Mac binaries are not built correctly. You'll have to do some manual steps to make it work:
+- macOS/Linux: [Wiimms WBFS Tool](https://wit.wiimm.de/download.html)
+(You should also be able to use this to format *first partition* to WBFS, but I did not try that)
   1. Unzip and install `sudo sh install.sh`
-  2. Remove ARM part of universal binary `lipo -remove arm64 /usr/local/bin/wwt -output /usr/local/bin/wwt`
+  2. On **Mac only** fix the binary to actually run `lipo -remove arm64 /usr/local/bin/wwt -output /usr/local/bin/wwt`
   3. Copy (supports ISO, WDF, WIA, CISO, WBFS, GCZ and FST) `sudo wwt add --source ~/Downloads/RSBE01.iso --auto --progress`
-- Linux: [Wii Backup Fusion](https://github.com/larsenv/Wii-Backup-Fusion/releases/latest)
