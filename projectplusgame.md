@@ -6,6 +6,7 @@
   - [iPartition](https://coriolis-systems.com/) to delete existing partition and create *first partition* and *second partition* (both FAT32)
   - [Disk Utility](https://support.apple.com/guide/disk-utility/welcome/mac) to reformat *second partition* to exFAT
 - Ubuntu 24.04.2 LTS (Noble Numbat): [Disks](https://help.ubuntu.com/lts/ubuntu-help/disk-partitions.html.en)
+  - You'll probably need to run `sudo apt install exfat-fuse` to enable exFAT
 
 ## Format *First Partition* to WBFS
 - Windows 11: [Wii Backup Manager](https://wiibackupmanager.co.uk/)
