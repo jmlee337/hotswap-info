@@ -20,3 +20,4 @@
 ## Copy Brawl ISO
 - Windows 11: [Wii Backup Manager](https://wiibackupmanager.co.uk/)
 - macOS/Linux: [Wii Backup Fusion](https://github.com/larsenv/Wii-Backup-Fusion/releases/latest)
+  - On macOS you'll need to follow the directions to [open an app from an unidentified developer](https://support.apple.com/en-gb/guide/mac-help/mh40616/mac).
