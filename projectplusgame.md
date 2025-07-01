@@ -8,6 +8,11 @@
 ## Format First Partition to WBFS
 - Windows 11: [Wii Backup Manager](https://wiibackupmanager.co.uk/)
 - Non-Windows: [CfgUSBLoader](https://github.com/nitraiolo/CfgUSBLoader/releases/latest)
+  1. Press A to select device
+  2. Press A to select partition
+  3. Press R to format WBFS
+  4. Press A to confirm
+  5. Press Start to exit
 
 ## Copy Brawl ISO
 - Windows 11: [Wii Backup Manager](https://wiibackupmanager.co.uk/)
