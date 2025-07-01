@@ -75,3 +75,6 @@ Within reason, no.
 In practice, for a pool up to 64 players one TO operating Replay Manager can be fast enough to avoid any line forming.
 If you have more than 64 players per wave, you should expect to need extra laptops and TOs.
 Some TOs attest that reporting through Replay Manager is **faster** than start.gg's website.
+## Why not FAT32?
+For some reason, Slippi Nintendont struggles and often fails to write to FAT32 drives that are more than about 50% full.
+If you need to boot P+ off the same USB drives used for hotswap, see [this guide](projectplusgame.md)).
