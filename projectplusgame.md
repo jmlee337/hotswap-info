@@ -1,11 +1,11 @@
 # P+ USB Drive Setup
 
 ## Create Partitions
-- Windows 11: [Disk Management](https://learn.microsoft.com/en-us/windows-server/storage/disk-management/overview-of-disk-management)
+- Windows 11: **Disk Management** (built-in)
 - macOS 15 Sequoia
   - [iPartition](https://coriolis-systems.com/) to delete existing partition and create *first partition* and *second partition* (both FAT32)
-  - [Disk Utility](https://support.apple.com/guide/disk-utility/welcome/mac) to reformat *second partition* to exFAT
-- Ubuntu 24.04.2 LTS (Noble Numbat): [Disks](https://help.ubuntu.com/lts/ubuntu-help/disk-partitions.html.en)
+  - **Disk Utility** (built-in) to reformat *second partition* to exFAT
+- Ubuntu 24.04.2 LTS (Noble Numbat): **Disks** (built-in)
   - You'll probably need to run `sudo apt install exfat-fuse` to enable exFAT
 
 ## Format *First Partition* to WBFS
