@@ -1,5 +1,6 @@
 # P+ USB Drive Setup
 When using also USB drives for P+, the recommended method of formatting as FAT32 can cause problems for hotswap.
+This is because Slippi Nintendont struggles and often fails to write to FAT32 drives that are more than about 50% full.
 If you want to use the same USB drives for P+ and hotswap I recommend creating separate partitions:
 - *First partition* formatted as WBFS for P+ and other Wii ISOs
 - *Second partition* formatted as exFAT for hotswap
