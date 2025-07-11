@@ -9,7 +9,7 @@ This version included a fix for a bug that could cause launching Melee to get st
 - [Priiloader](https://github.com/DacoTaco/priiloader/releases/latest), download the installer (at time of writing `Priiloader_v0_10.zip`).
 If your installed Priiloader version is too old this won't work, so if you have problems try installing the latest version.
 I once had problems with an installed Priiloader that was version `0.7` (April 2011) or earlier (it had a white background).
-I suspect version `0.8` (July 2015) should work, please let me know if that is the case for you.
+Version `0.8` (July 2015) and later should work.
 
 ## Prerequisite: No BootMii-boot2
 You may also need:
