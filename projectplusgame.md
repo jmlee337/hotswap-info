@@ -9,7 +9,7 @@ When set up this way, Project+ USB Loader will see only *first partition* and Sl
 This is easiest to set up using Windows, but is also possible on macOS and Linux.
 
 ## Create Partitions
-*First partition* can have any format or none as we'll be changing it to WBFS, but make sure it is at least 7.3 GB for Brawl ISO.
+*First partition* can have any format or none as we'll be changing it to WBFS, but make sure it is at least 7.3 GB for Brawl ISO (7.5 GB/7680 MB is a  nice-round-ish number).
 *Second partition* can be nearly any size, 256 MB should be enough for any hotswap situation.
 - Windows 11: **Disk Management** (built-in)
 - macOS 15 Sequoia
