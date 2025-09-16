@@ -67,6 +67,11 @@ Best used for **smaller** tournaments that happen more frequently, like weeklies
 Auto SLP Player produces timestamps for every set so the VOD can be easily browsed by players and viewers.
 By streaming to Twitch and YouTube using [Restream](https://restream.io), the TO can produce a YouTube Live VOD complete with timestamps shortly **before** bracket ends.
 
+# Other Helpful Tools
+- [Auto Config for Slippi](https://github.com/jmlee337/auto-config-for-slippi/releases/latest) -
+lets you easily make sure all your SD cards have the same version of Slippi Nintendont and the same settings.
+
+
 # Frequently Asked Questions (FAQs)
 ## Can I record to 2 USB drives at once?
 No.
