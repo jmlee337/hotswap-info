@@ -56,20 +56,26 @@ In tournament the hotswap workflow looks like this:
 They are also more convenient for players to download, making it easier to use tools like [Melee Improover](https://github.com/Fiction52s/Melee-Improover/releases/latest), [rwing](https://www.patreon.com/rwing_aitch), and [Project Clippi](https://github.com/vinceau/project-clippi/releases/latest).
 *Per-Set Replays* are compressed by default which makes them easier on TO's cloud storage limits.
 Perhaps most importantly, there are also tools which specifically use *Per-Set Replays*, enabling TOs to do new things with very little effort:
-- [Auto VODs](https://github.com/davisdude/slp2mp4) -
+- [Auto VODs](https://github.com/davisdude/slp2mp4/releases/latest) -
 slp2mp4 by GrayCode turns *Per-Set Replays* into videos ready to be uploaded to YouTube.
 It is fully walk-away automatic, no OBS required or anything like that.
 Best used for **larger** tournaments that happen less frequently, like monthlies, regionals, etc.
+  - [ingest_startgg.py](https://github.com/jmlee337/replay-viewer/blob/normalize/scripts/ingest_startgg.py) can be used to attached the resulting VODs to start.gg.
 - [Auto Stream](https://github.com/jmlee337/auto-slp-player/releases/latest) -
 Auto SLP Player enables the TO operating Replay Manager to run an auto-quad stream from the same PC.
 Of course, the PC must be able to run 4 Slippi Dolphins at the same time.
 Best used for **smaller** tournaments that happen more frequently, like weeklies.
 Auto SLP Player produces timestamps for every set so the VOD can be easily browsed by players and viewers.
 By streaming to Twitch and YouTube using [Restream](https://restream.io), the TO can produce a YouTube Live VOD complete with timestamps shortly **before** bracket ends.
+  - Auto SLP Player produces timestamps for every set so the VOD can be easily browsed by players and viewers.
+    It can attach VOD links to start.gg as well.
 
 # Other Helpful Tools
 - [Auto Config for Slippi](https://github.com/jmlee337/auto-config-for-slippi/releases/latest) -
 lets you easily make sure all your SD cards have the same version of Slippi Nintendont and the same settings.
+- [Offline Mode for start.gg](https://github.com/jmlee337/local-cache-for-startgg/releases/latest) -
+is an offline client for start.gg which protects your tournament from outages, whether on your end or theirs.
+It can be used with Replay Manager or standalone.
 
 
 # Frequently Asked Questions (FAQs)
