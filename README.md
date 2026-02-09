@@ -76,6 +76,8 @@ lets you easily make sure all your SD cards have the same version of Slippi Nint
 - [Offline Mode for start.gg](https://github.com/jmlee337/local-cache-for-startgg/releases/latest) -
 is an offline client for start.gg which protects your tournament from outages, whether on your end or theirs.
 It can be used with Replay Manager or standalone.
+- [Wii Network Config Editor](https://github.com/Bazmoc/Wii-Network-Config-Editor/releases/latest) -
+can be used to set your Wiis' network without a wiimote or internet connection.
 
 
 # Frequently Asked Questions (FAQs)
