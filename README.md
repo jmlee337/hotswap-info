@@ -15,7 +15,7 @@ However, there is now a better way.
 
 The shortcoming of Slippi replays is that they work **per-game**, while much of console Melee is played **per-set**.
 Now, USB hotswap in Slippi Nintendont makes it practical to collect replays per-set.
-With Replay Manager for Slippi we can add player names, scores, and information about the set all while reporting the result to start.gg in the same amount of time.
+With Replay Reporter for Slippi we can add player names, scores, and information about the set all while reporting the result to start.gg in the same amount of time.
 The result is replays grouped and labelled by set, packaged together with all relevant context, henceforth referred to as *Per-Set Replays*.
 
 <img width="778" alt="Screenshot 2025-06-25 at 12 17 38" src="https://github.com/user-attachments/assets/35e11d74-2eb9-4573-98c2-a4677c5a9d23" />
@@ -32,7 +32,7 @@ To start producing *Per-Set Replays* you will need the following:
 - [Slippi Nintendont](https://github.com/project-slippi/Nintendont/releases/latest) -
 At time of writing, the latest version to contain hotswap improvments is `v1.13.0` (April 2025).
 If your Wiis are only used for tournament Melee, I recommend setting up [full autoboot](autoboot.md).
-- [Replay Manager for Slippi](https://github.com/jmlee337/replay-manager-for-slippi/releases/latest) -
+- [Replay Reporter for Slippi](https://github.com/jmlee337/replay-manager-for-slippi/releases/latest) -
 Used to simultaneously group, label, and package *Per-Set Replays* while reporting set results to start.gg (or Challonge).
 Can be operated by a TO and/or set to walkthrough mode for player self-service.
 Available for Windows, Mac, and Linux.
@@ -49,7 +49,7 @@ In tournament the hotswap workflow looks like this:
 2. The players confirm that the disc drive lights up and remains solid blue: this means that replays are working.
 3. The players play their set as normal.
 4. The players return the USB drive to the TO when reporting their result.
-5. The TO uses Replay Manager for Slippi to turn the replays from the returned USB drive into *Per-Set Replays* and report the result to start.gg.
+5. The TO uses Replay Reporter for Slippi to turn the replays from the returned USB drive into *Per-Set Replays* and report the result to start.gg.
 
 # Applications of *Per-Set Replays*
 *Per-Set Replays* are more convienent for TOs to upload since when the bracket ends they're already all in one place.
@@ -62,7 +62,7 @@ It is fully walk-away automatic, no OBS required or anything like that.
 Best used for **larger** tournaments that happen less frequently, like monthlies, regionals, etc.
   - [ingest_startgg.py](https://github.com/jmlee337/replay-viewer/blob/normalize/scripts/ingest_startgg.py) can be used to attached the resulting VODs to start.gg.
 - [Auto Stream](https://github.com/jmlee337/auto-slp-player/releases/latest) -
-Auto SLP Player enables the TO operating Replay Manager to run an auto-quad stream from the same PC.
+Auto SLP Player enables the TO operating Replay Reporter to run an auto-quad stream from the same PC.
 Of course, the PC must be able to run 4 Slippi Dolphins at the same time.
 Best used for **smaller** tournaments that happen more frequently, like weeklies.
 Auto SLP Player produces timestamps for every set so the VOD can be easily browsed by players and viewers.
@@ -75,7 +75,7 @@ By streaming to Twitch and YouTube using [Restream](https://restream.io), the TO
 lets you easily make sure all your SD cards have the same version of Slippi Nintendont and the same settings.
 - [Offline Mode for start.gg](https://github.com/jmlee337/local-cache-for-startgg/releases/latest) -
 is an offline client for start.gg which protects your tournament from outages, whether on your end or theirs.
-It can be used with Replay Manager or standalone.
+It can be used with Replay Reporter or standalone.
 - [Wii Network Config Editor](https://github.com/Bazmoc/Wii-Network-Config-Editor/releases/latest) -
 can be used to set your Wiis' network without a wiimote or internet connection.
 
@@ -85,9 +85,9 @@ can be used to set your Wiis' network without a wiimote or internet connection.
 No.
 ## Will using the hotswap workflow slow down my bracket?
 Within reason, no.
-In practice, for a pool up to 64 players one TO operating Replay Manager can be fast enough to avoid any line forming.
+In practice, for a pool up to 64 players one TO operating Replay Reporter can be fast enough to avoid any line forming.
 If you have more than 64 players per wave, you should expect to need extra laptops and TOs.
-Some TOs attest that reporting through Replay Manager is **faster** than start.gg's website.
+Some TOs attest that reporting through Replay Reporter is **faster** than start.gg's website.
 ## Why not FAT32?
 For some reason, Slippi Nintendont struggles and often fails to write to FAT32 drives that are more than about 50% full.
 If you need to boot P+ off the same USB drives used for hotswap, see [this guide](projectplusgame.md)).
