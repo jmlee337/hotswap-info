@@ -60,7 +60,7 @@ Perhaps most importantly, there are also tools which specifically use *Per-Set R
 slp2mp4 by GrayCode turns *Per-Set Replays* into videos ready to be uploaded to YouTube.
 It is fully walk-away automatic, no OBS required or anything like that.
 Best used for **larger** tournaments that happen less frequently, like monthlies, regionals, etc.
-  - [ingest_startgg.py](https://github.com/jmlee337/replay-viewer/blob/normalize/scripts/ingest_startgg.py) can be used to attached the resulting VODs to start.gg.
+  - [ingest_startgg.py](https://github.com/davisdude/replay-viewer/blob/advanced-search/scripts/ingest_startgg.py) can be used to attached the resulting VODs to start.gg.
 - [Auto Stream](https://github.com/jmlee337/auto-slp-player/releases/latest) -
 Auto SLP Player enables the TO operating Replay Reporter to run an auto-quad stream from the same PC.
 Of course, the PC must be able to run 4 Slippi Dolphins at the same time.
