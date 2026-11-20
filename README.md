@@ -30,7 +30,7 @@ This is the bracket your bracket could look like:
 To start producing *Per-Set Replays* you will need the following:
 
 - [Slippi Nintendont](https://github.com/project-slippi/Nintendont/releases/latest) -
-At time of writing, the latest version to contain hotswap improvments is `v1.13.0` (April 2025).
+At time of writing, the latest version to contain hotswap improvments is `v1.13.3` (October 2026).
 If your Wiis are only used for tournament Melee, I recommend setting up [full autoboot](autoboot.md).
 - [Replay Reporter for Slippi](https://github.com/jmlee337/replay-manager-for-slippi/releases/latest) -
 Used to simultaneously group, label, and package *Per-Set Replays* while reporting set results to start.gg (or Challonge).
